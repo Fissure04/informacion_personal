@@ -9,9 +9,9 @@ provider:
   runtime: python3.9
 
 functions:
-  info:
-    handler: handler.info
+  my_info:
+    handler: handler.my_info
     events:
       - http:
-          path: /info
+          path: /my_info
           method: get
